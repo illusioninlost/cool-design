@@ -1,8 +1,28 @@
+html{
+  padding: 0px;
+  margin: 0;
+}
 
 body{
+  color: #40514E;
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
+}
+
+.top-container{
+  background-color: #E4F9F5;
+  padding-top: 100px;
+}
+
+.middle-container{
+  margin: 100px 0;
+}
+
+.bottom-container{
+  margin: 100px 0;
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
 }
 
 h1{
@@ -20,28 +40,33 @@ h2{
   color:#66BFBF;
   font-weight: normal;
   line-height: 200%;
+  padding: 10px;
 }
 
 h3{
   font-family: 'Sacramento', cursive;
   color: #11999E;
+  font-size: 2rem;
 }
 
 a{
   color: #11999E;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 10px 20px;
+  text-decoration: none;
 }
 
-
-.top-container{
-  background-color: #E4F9F5;
-  padding-top: 100px;
+a:hover{
+  color: #EAF6F6;
 }
+
 
 .skill-row{
   width: 50%;
   margin: auto;
   text-align: left;
   line-height: 200%;
+  padding: 100px;
 }
 
 
@@ -51,16 +76,57 @@ a{
 
 .bottom-cloud{
   position: absolute;
-  left: 300px;
-
+  left: 250px;
 }
 
+hr{
+  border: dotted #76b39d 6px;
+  border-bottom: none;
+  width: 50%;
+  margin: 100px auto;
+}
 .top-cloud{
   position: absolute;
-  right: 300px;
+  right: 250px;
   top: 50px;
 }
 
 .computer-image{
   width: 25%;
+  float: right;
+  border-radius: 50%;
+  margin-left: 30px;
+}
+
+.chip-image{
+  width: 25%;
+  float: left;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+
+
+#myself{
+  border-radius: 50%;
+}
+
+.intro{
+  width: 30%;
+  margin: auto;
+}
+
+p{
+  line-height: 2;
+}
+
+.contact{
+  width: 40%;
+  margin: 20px auto 40px;
+}
+
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
 }
