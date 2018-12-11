@@ -16,6 +16,7 @@ div{
 
 .top-container{
   background-color: grey;
+  padding-top: 100px;
 }
 
 .middle-container{
@@ -31,4 +32,16 @@ div{
 
 .pro{
   text-decoration: underline;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  
+}
+
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 50px;
 }
