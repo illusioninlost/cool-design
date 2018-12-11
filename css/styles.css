@@ -10,16 +10,25 @@ h1{
   margin: 50px auto 0 auto;
   font-family: 'Sacramento', cursive;
   font-size: 5.625rem;
+  color:#66BFBF;
 }
 /* use rem to root css */
 
 h2{
   font-family: 'Sacramento', cursive;
   font-size: 2.5rem;
+  color:#66BFBF;
+  font-weight: normal;
+  line-height: 200%;
 }
 
 h3{
   font-family: 'Sacramento', cursive;
+  color: #11999E;
+}
+
+a{
+  color: #11999E;
 }
 
 
@@ -28,6 +37,12 @@ h3{
   padding-top: 100px;
 }
 
+.skill-row{
+  width: 50%;
+  margin: auto;
+  text-align: left;
+  line-height: 200%;
+}
 
 
 .pro{
@@ -44,4 +59,8 @@ h3{
   position: absolute;
   right: 300px;
   top: 50px;
+}
+
+.computer-image{
+  width: 25%;
 }
